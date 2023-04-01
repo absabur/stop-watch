@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Stop Watch</h1>
+        <div class="button-sec">
+            <div class="fst">
+                <button id="start"><i class="fa-solid fa-play fa-3x"></i> <br> Start</button>
+                <button id="pause"><i class="fa-solid fa-pause fa-3x"></i> <br> Pause</button>
+            </div>
+            <div><button id="record"><i class="fa-solid fa-flag fa-3x"></i> <br> Record</button></div>
+            <div><button id="reset"><i class="fa-solid fa-rotate-left fa-3x"></i> <br> Reset</button></div>
+        </div>
+        <div class="display">
+            <div class="running-time">
+                00 : 00 : 00 : 00 
+            </div>
+            <div class="store">
+                <h2>Records</h2> <br>
+                Hour : Minute : Second : MiliSecond<br>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
